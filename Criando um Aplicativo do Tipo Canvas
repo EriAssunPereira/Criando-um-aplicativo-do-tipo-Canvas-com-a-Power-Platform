@@ -1,0 +1,33 @@
+Para criar um aplicativo do tipo **Canvas** no **Microsoft Dynamics 365 CE**, siga as etapas abaixo:
+
+1. **Crie um aplicativo Canvas**:
+   - Acesse o **Power Apps** e selecione **Novo aplicativo**.
+   - Escolha o formato **Phone** para o aplicativo.
+   - Crie o cabeçalho e adicione os componentes necessários, como campos de entrada de texto (ComboBox) e detalhes (componente Gallery).
+
+2. **Conecte-se aos dados**:
+   - No aplicativo, selecione **Conectar a dados**.
+   - Escolha a opção **Dataverse** (anteriormente conhecido como Common Data Service).
+   - Selecione a tabela **Cursos** como fonte de dados.
+
+3. **Adicione um campo de entrada de texto (ComboBox)**:
+   - No aplicativo, adicione um componente de entrada de texto do tipo **ComboBox**.
+   - Configure-o para permitir a seleção do curso.
+
+4. **Adicione um componente de detalhe (Gallery)**:
+   - Crie uma **Gallery** para exibir os detalhes dos cursos.
+   - Use fórmulas para filtrar e exibir os dados relevantes da tabela **Cursos**.
+
+5. **Crie um fluxo no Power Automate**:
+   - Acesse o **Power Automate**.
+   - Crie um novo fluxo automatizado.
+   - Escolha o gatilho **Quando um novo email chega (V3)**.
+   - Configure o fluxo para enviar um email quando um novo registro de instrutor for criado, usando o endereço de email informado no cadastro do instrutor⁶.
+
+6. **Exporte o aplicativo**:
+   - Quando o aplicativo estiver pronto, exporte-o.
+   - Disponibilize-o no **MS Dynamics 365 CE**, acessível no aplicativo **Gestão de Cursos** a partir do formulário existente na entidade **Cursos**.
+
+https://academiapme-my.sharepoint.com/:u:/g/personal/renato_dio_me/EUO3hC3vKM1LpJbuo3hhtRAB4TukLZQsKLaO1vJeETj1UQ?e=odYAKa
+
+https://academiapme-my.sharepoint.com/:p:/g/personal/renato_dio_me/ES7kGvK7VOpOm9doW0rK6b0BBxRUlCn6qruOPuFywQIyWg?e=QWQc6T
